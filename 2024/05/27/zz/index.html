@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport" />
+    <meta name="description" content="错题记录" />
+    <meta name="hexo-theme-A4" content="v1.8.8" />
+    <link rel="alternate icon" type="image/webp" href="/img/lalaland.jpg">
+    <title>Vernal Wind 吴蒙蔚 | 东北师范GIS</title>
+
+    
+        
+<link rel="stylesheet" href="/css/highlight/style1.css">
+
+        
+<link rel="stylesheet" href="/css/reset.css">
+
+        
+<link rel="stylesheet" href="/css/markdown.css">
+
+        
+<link rel="stylesheet" href="/css/fonts.css">
+ 
+         <!--注意：首页既不是post也不是page-->
+        
+            
+<link rel="stylesheet" href="/css/waline.css">
+
+        
+        
+        
+<link rel="stylesheet" href="/css/ui.css">
+ 
+        
+<link rel="stylesheet" href="/css/style.css">
+
+
+        
+        
+            <!--目录-->
+            
+<link rel="stylesheet" href="/css/toc.css">
+
+        
+    
+
+    
+    
+   
+<link rel="stylesheet" href="/css/lightgallery.min.css">
+
+
+<meta name="generator" content="Hexo 7.1.1"></head>
+    
+    <style>
+        :root {
+            --waline-theme-color: #323e74; 
+            --waline-color: #323e74; 
+            --waline-border-color: #323e74; 
+            --waline-white: #323e74; 
+            --waline-bgcolor-light: #f2fafc;  
+        }
+        body {
+            color: #323e74;
+            background: #f2fafc;
+        }
+        .post-md code {
+            background: #e7f7f3;
+            color: #7f688d; 
+        }
+        .post-md pre, .post-md .highlight {
+            background: #e7f7f3;
+            color: #7f688d; 
+        }
+        pre .string, pre .value, pre .inheritance, pre .header, pre .ruby .symbol, pre .xml .cdata {
+            color: #323e74;
+        }
+        pre .number, pre .preprocessor, pre .built_in, pre .literal, pre .params, pre .constant {
+            color: #323e74;
+        }
+        .year-font-color {
+            color: #323e74 !important;
+        }
+        .wl-card span.wl-nick {
+            color: #323e74; 
+        }
+        .wl-card .wl-badge {
+            border: 1px solid #323e74;
+            color: #323e74; 
+        }
+        .wl-btn {
+            border: 1px solid #323e74; 
+            color:  #323e74;  
+        }
+        .wl-btn.primary {
+            color: #f2fafc; 
+        }
+        .wl-header label {
+            color: #323e74;
+        }
+        a {
+            color: #7f688d;
+        }
+
+        .post-md a {
+            color: #7f688d;
+        }
+
+        .nav li a {
+            color: #7f688d;
+        }
+
+        .archive-main a:link {
+            color: #7f688d;
+        }
+        .archive-main a:visited {
+            color: #767c7c; 
+        }
+
+        .archive li span {
+            color: #323e74;
+        }
+
+        .post-main-title {
+            color: #323e74;
+        }
+
+        .post-md h1,
+        .post-md h2,
+        .post-md h3,
+        .post-md h4,
+        .post-md h5,
+        .post-md h6 {
+            color: #323e74;
+        }
+
+        [data-waline] p {
+            color: #323e74;
+        }
+        [data-waline] a {
+            color: #323e74;
+        } 
+        .wl-sort li.active {
+            color: #323e74;
+        }
+
+        .wl-card .wl-meta>span {
+            background: #f2fafc;
+        }
+
+        .paper {
+            background: #f2fafc;
+        }
+
+        .index-main {
+            background: #f2fafc;
+        }
+
+        .paper-main {
+            background: #f2fafc;
+        }
+
+        .wl-panel {
+            background: #f2fafc;
+        }
+
+        .archive li:nth-child(odd) {
+            background: #f2fafc;
+            ;
+        }
+
+        .archive li:nth-child(even) {
+            background: #f2fafc;
+        }
+
+        .post-md table tr:nth-child(odd) td {
+            background: #f2fafc;
+        }
+
+        .post-md table tr:nth-child(even) td {
+            background: #f2fafc;
+        }
+
+    
+        .progress-wrap::after {
+            color: #323e74; /* 箭头的颜色 */
+        }
+        .progress-wrap svg.progress-circle path {
+	        stroke: #323e74; /* 边框的颜色 */
+        }
+        .progress-wrap::before {
+	        background-image: linear-gradient(298deg, #7f688d, #7f688d); /* 鼠标滑过的箭头颜色 */
+         }
+
+        .return-to-last-progress-wrap::after {
+            color: #323e74; /* 箭头的颜色 */
+        }
+        .return-to-last-progress-wrap svg.progress-circle path {
+	        stroke: #323e74; /* 边框的颜色 */
+        }
+        .return-to-last-progress-wrap::before {
+	        background-image: linear-gradient(298deg, #7f688d, #7f688d); /* 鼠标滑过的箭头颜色 */
+         }
+
+         .left-toc-container::-webkit-scrollbar-thumb {
+            background-color: #323e74; /* 设置滚动条拖动块的颜色 */
+        }
+
+        .bs-docs-sidebar .nav>.active>a,
+        .bs-docs-sidebar .nav>li>a:hover,
+        .bs-docs-sidebar .nav>li>a:focus {
+            color: #7f688d;
+            border-left-color: #7f688d;
+        }
+        .bs-docs-sidebar .nav>li>a {
+            color:  #323e74;
+        }
+    </style>
+
+    
+    <style>
+        body{
+            background-image: url(/img/bubu.png);
+        }
+        .paper {
+            background-image: url(/img/bubu.png);
+        }  
+    </style>
+
+    <body>
+        
+            <div class="left-toc-container">
+                <nav id="toc" class="bs-docs-sidebar"></nav>
+            </div>
+        
+        <div class="paper">
+            
+            
+            
+            
+                <div class="shadow-drop-2-bottom paper-main">
+                    
+
+
+<div class="header">
+    <div class="header-container">
+        <img style="
+        width: 56px;
+        height: auto;" alt="^-^" cache-control="max-age=86400" class="header-img" src="/img/lalaland.jpg" width="10%"></img>
+        <div class="header-content">
+            <a class="logo" href="/">Vernal Wind 吴蒙蔚</a> 
+            <span class="description">善待机会，破茧成蝶</span> 
+        </div>
+        
+    </div>
+    
+   
+    <ul class="nav">
+        
+            
+                <li><a href="/">首页</a></li>
+            
+        
+            
+                <li><a href="/list/">文章</a></li>
+            
+        
+            
+                <li><a href="/about/">关于</a></li>
+            
+        
+            
+                <li><a href="/tags/">标签</a></li>
+            
+        
+            
+                <li><a href="/categories/">分类</a></li>
+            
+        
+    </ul>
+</div> 
+        
+                    
+                    
+
+                    
+                    
+                    
+                    <!--说明是文章post页面-->
+                    
+                        <div class="post-main">
+
+    
+        <div class="post-main-title">
+            错题记录
+        </div>
+      
+    
+
+    <div class="post-md">
+        
+            
+                <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#%E9%A9%AC%E5%8E%9F"><span class="post-toc-text">马原</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#%E5%8F%B2%E7%BA%B2"><span class="post-toc-text">史纲</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#%E6%AF%9B%E4%B8%AD%E7%89%B9"><span class="post-toc-text">毛中特</span></a></li></ol>
+            
+        
+        <link rel="stylesheet" type="text/css" href="https://jsd.onmicrosoft.cn/npm/hexo-theme-a4@latest/source/css/lightgallery.min.css" /><div class=".article-gallery"><h1 id="马原"><a href="#马原" class="headerlink" title="马原"></a>马原</h1><p>马克思主义的基本特征有科学性、实践性、人民性、发展性<br>实践观点是马克思主义首要的和基本的观点<br>人民性是马克思主义的<mark style="background: #FFB8EBA6;">本质属性</mark>，人民至上是马克思主义的政治立场</p>
+
+<div class="markmap-container" style="height:200px">
+  <svg data="{&quot;t&quot;:&quot;root&quot;,&quot;d&quot;:0,&quot;v&quot;:&quot;&quot;,&quot;c&quot;:[{&quot;t&quot;:&quot;heading&quot;,&quot;d&quot;:1,&quot;p&quot;:{&quot;lines&quot;:[0,1]},&quot;v&quot;:&quot;本质属性&quot;,&quot;c&quot;:[{&quot;t&quot;:&quot;list_item&quot;,&quot;d&quot;:3,&quot;p&quot;:{&quot;lines&quot;:[1,2]},&quot;v&quot;:&quot;人的意识&quot;,&quot;c&quot;:[{&quot;t&quot;:&quot;list_item&quot;,&quot;d&quot;:5,&quot;p&quot;:{&quot;lines&quot;:[2,3],&quot;f&quot;:true},&quot;v&quot;:&quot;社会性&quot;}]},{&quot;t&quot;:&quot;list_item&quot;,&quot;d&quot;:3,&quot;p&quot;:{&quot;lines&quot;:[3,4]},&quot;v&quot;:&quot;真理&quot;,&quot;c&quot;:[{&quot;t&quot;:&quot;list_item&quot;,&quot;d&quot;:5,&quot;p&quot;:{&quot;lines&quot;:[4,5],&quot;f&quot;:true},&quot;v&quot;:&quot;客观性&quot;}]},{&quot;t&quot;:&quot;list_item&quot;,&quot;d&quot;:3,&quot;p&quot;:{&quot;lines&quot;:[5,6]},&quot;v&quot;:&quot;人&quot;,&quot;c&quot;:[{&quot;t&quot;:&quot;list_item&quot;,&quot;d&quot;:5,&quot;p&quot;:{&quot;lines&quot;:[6,7],&quot;f&quot;:true},&quot;v&quot;:&quot;社会属性&quot;}]}]},{&quot;t&quot;:&quot;heading&quot;,&quot;d&quot;:1,&quot;p&quot;:{&quot;lines&quot;:[7,8]},&quot;v&quot;:&quot;意识&quot;,&quot;c&quot;:[{&quot;t&quot;:&quot;list_item&quot;,&quot;d&quot;:3,&quot;p&quot;:{&quot;lines&quot;:[8,9]},&quot;v&quot;:&quot;意识在内容上&quot;,&quot;c&quot;:[{&quot;t&quot;:&quot;list_item&quot;,&quot;d&quot;:5,&quot;p&quot;:{&quot;lines&quot;:[9,10],&quot;f&quot;:true},&quot;v&quot;:&quot;是客观的&quot;}]},{&quot;t&quot;:&quot;list_item&quot;,&quot;d&quot;:3,&quot;p&quot;:{&quot;lines&quot;:[10,11]},&quot;v&quot;:&quot;在形式上&quot;,&quot;c&quot;:[{&quot;t&quot;:&quot;list_item&quot;,&quot;d&quot;:5,&quot;p&quot;:{&quot;lines&quot;:[11,12],&quot;f&quot;:true},&quot;v&quot;:&quot;是主观的&quot;}]},{&quot;t&quot;:&quot;list_item&quot;,&quot;d&quot;:3,&quot;p&quot;:{&quot;lines&quot;:[12,13]},&quot;v&quot;:&quot;是客观内容和主观形式的统一&quot;},{&quot;t&quot;:&quot;list_item&quot;,&quot;d&quot;:3,&quot;p&quot;:{&quot;lines&quot;:[13,14]},&quot;v&quot;:&quot;起源&quot;,&quot;c&quot;:[{&quot;t&quot;:&quot;list_item&quot;,&quot;d&quot;:5,&quot;p&quot;:{&quot;lines&quot;:[14,15],&quot;f&quot;:true},&quot;v&quot;:&quot;自然界长期发展的产物&quot;},{&quot;t&quot;:&quot;list_item&quot;,&quot;d&quot;:5,&quot;p&quot;:{&quot;lines&quot;:[15,16],&quot;f&quot;:true},&quot;v&quot;:&quot;社会历史发展的产物&quot;}]}]}],&quot;p&quot;:{}}"></svg>
+</div>
+
+
+
+<ol>
+<li>科学的任务在于准确辨别真象和假象，透过现象把握本质</li>
+<li>人们的实践活动总是受着真理尺度和价值尺度的制约。 任何成功的实践都是真理尺度和价值尺度的统一，是合规律性和合目的性的统一。</li>
+<li>价值评价有科学与非科学之别，评价结果有正确与错误之分。评价结果的正确与否依赖于对客体状况和主体需要的认识。</li>
+<li>从感性认识上升到理性认识，必须具备两个基本条件：<ol>
+<li>第一，投身实践，深入调查，获取十分丰富和合乎实际的感性材料。（实现……的基础）</li>
+<li>第二，经过思考的作用，运用理论思维和科学抽象，将丰富的感性材料加以去粗取精、去伪存真、由此及彼、由表及里的处理加工，形成概念和理论的系统。</li>
+</ol>
+</li>
+<li>处理好主观能动性和客观规律性的关系：<ol>
+<li>一方面，尊重客观规律是正确发挥主观能动性的前提；</li>
+<li>只有充分发挥主观能动性，才能正确认识和利用客观规律。</li>
+</ol>
+</li>
+<li>辩证唯物主义认识论<ol>
+<li>把实践的观点引入认识论</li>
+<li>把辩证法应用于反映论考察认识的发展过程</li>
+</ol>
+</li>
+<li>从认识到实践的飞跃是更为重要的飞跃<ol>
+<li>认识世界的目的是改造世界</li>
+<li>认识的真理性只有在实践中才能得到检验和发展</li>
+</ol>
+</li>
+</ol>
+<p>实践、认识、再实践、再认识，循环往复以至无穷，而实践和认识之每一循环的内容，都比较地进到了高一级的程度。这就是辩证唯物论的全部认识论。这一过程是认识辩证运动发展的基本过程，也是认识运动的总规律，表明认识是一个反复循环和无限发展的过程</p>
+<p>![[Pasted image 20240528083440.png]]<br>1844《德法年鉴》从唯心主义到唯物主义，革命民主主义到共产主义的转变，奠定了思想前提<br>马克思恩格斯合著《神圣家族》和《德意志意识形态》<br>1871年《法兰西内战》和几年后的《哥达纲领批评》，丰富了科学社会主义学说<br>1876-1878年 恩格斯《反杜林论》全面阐述了马克思主义理论体系。</p>
+<p>商品经济得以产生的社会历史条件有两个：一是存在社会分工，二是生产资料和劳动产品属于不同的所有者</p>
+<p>劳动力成为商品的两个基本条件：1. 劳动者在法律上是自由人，能够把自己的劳动力作为商品来支配。2.劳动者没有任何生产资料，没有生活资料，只能出卖自己的劳动力</p>
+<p>资本主义生产过程具有二重性：一方面是生产物质资料的劳动过程；另一方面是生产剩余价值的过程，即价值增殖过程。资本主义生产过程是劳动过程和价值增殖过程的统一。</p>
+<p>事情的性质是由主要矛盾的主要方面所决定的。</p>
+
+<div class="markmap-container" style="height:300px">
+  <svg data="{&quot;t&quot;:&quot;list_item&quot;,&quot;d&quot;:2,&quot;p&quot;:{&quot;lines&quot;:[0,1]},&quot;v&quot;:&quot;具体劳动和抽象劳动是对立统一的关系。&quot;,&quot;c&quot;:[{&quot;t&quot;:&quot;list_item&quot;,&quot;d&quot;:4,&quot;p&quot;:{&quot;lines&quot;:[1,2],&quot;f&quot;:true},&quot;v&quot;:&quot;一方面，具体劳动和抽象劳动不是各自独立存在的两种劳动或两次劳动。它们在时间和空间上是统一的，是商品生产者的同一劳动过程不可分割的两个方面；&quot;},{&quot;t&quot;:&quot;list_item&quot;,&quot;d&quot;:4,&quot;p&quot;:{&quot;lines&quot;:[2,3],&quot;f&quot;:true},&quot;v&quot;:&quot;一方面，具体劳动与抽象劳动又分别反映劳动的不同属性&quot;,&quot;c&quot;:[{&quot;t&quot;:&quot;list_item&quot;,&quot;d&quot;:6,&quot;p&quot;:{&quot;lines&quot;:[3,4],&quot;f&quot;:true},&quot;v&quot;:&quot;具体劳动反映人与自然的关系，&quot;,&quot;c&quot;:[{&quot;t&quot;:&quot;list_item&quot;,&quot;d&quot;:8,&quot;p&quot;:{&quot;lines&quot;:[4,5],&quot;f&quot;:true},&quot;v&quot;:&quot;是劳动的自然属性&quot;}]},{&quot;t&quot;:&quot;list_item&quot;,&quot;d&quot;:6,&quot;p&quot;:{&quot;lines&quot;:[5,6],&quot;f&quot;:true},&quot;v&quot;:&quot;抽象劳动反映的是商品生产者的社会关系，&quot;,&quot;c&quot;:[{&quot;t&quot;:&quot;list_item&quot;,&quot;d&quot;:8,&quot;p&quot;:{&quot;lines&quot;:[6,7],&quot;f&quot;:true},&quot;v&quot;:&quot;是劳动的社会属性。&quot;}]}]}]}"></svg>
+</div>
+
+
+<p>劳动是创造价值的唯一源泉。</p>
+<blockquote>
+<p>劳动力商品在使用价值上有一个很突出的特点，就是它的使用价值是价值的源泉。但是使用价值不是价值的源泉，劳动才是。</p>
+<p>劳动力成为商品，标志着简单商品生产发展到资本主义商品生产的新阶段。</p>
+<p>决定商品交换的比例的不是商品的使用价值，而是价值。<br>使用价值是价值的物质承担者，价值寓于使用价值之中。</p>
+</blockquote>
+<p>法人资本所有制有两种形式：<br>一种是企业法人资本所有制，<br>另一种是机构法人资本所有制。</p>
+<p>金融垄断资本得以形成和壮大的重要制度条件：&#x3D;&#x3D;金融自由化和金融创新&#x3D;&#x3D;<br>国际金融资本的垄断成为当代资本主义最突出、最鲜明、最主要的特征，这表现在金融垄断寡头化、金融垄断国际化、经济虚拟化、产业空心化</p>
+<p>商品价值形式的发展经历了四个阶段，即</p>
+<ol>
+<li>简单的或偶然的价值形式、</li>
+<li>总和的或扩大的价值形式、</li>
+<li>一般价值形式，</li>
+<li>以及货币形式。<br> 货币是在长期交换过程中形成的固定充当一般等价物的商品。<br>货币是商品经济内部矛盾发展的产物<br>货币的本质体现一种社会关系<br>资本家提高对工人剥削程度的最基本的方法有两种：</li>
+<li>绝对剩余价值的生产</li>
+<li>相对剩余价值的生产<br>资本主义经济危机爆发的根本原因是：<mark style="background: #ADCCFFA6;">资本主义的基本矛盾</mark> ，这一基本矛盾具体表现在以下两个方面：</li>
+<li>其一，生产无限扩大的趋势与劳动人民有支付能力的需求相对缩小的矛盾；</li>
+<li>其二，单个企业内部生产的有组织性和整个社会生产的无政府状态之间的矛盾</li>
+</ol>
+<h1 id="史纲"><a href="#史纲" class="headerlink" title="史纲"></a>史纲</h1><p> 唯物史观：</p>
+<ol>
+<li>人民群众的社会实践最终决定历史发展的结局。</li>
+<li>任何历史人物的出现都体现了必然性与偶然性的统一。<br> ![[Pasted image 20240527134317.png]] 1933年，国民党内发动反蒋抗日的福建事变——《反日反蒋的初步协定》<br>1934年宋庆龄“民族武装自卫委员会筹备委员会”——《中国人民对日作战的基本纲领》几十万<br>1935年8月1日《为抗日救国告全体同胞书》（八一宣言）<br>1936年5月，朱毛联名发布《停战议和一致抗日通电》，<mark style="background: #FFB8EBA6;">放弃反蒋口号</mark></li>
+</ol>
+<p>1948年4月30日，中央在纪念五一国际劳动节的口号中提出：“各民主党派、各人民团体、各社会贤达迅速召开政治协商会议，讨论并实现召集人民代表大会，成立民主联合政府。”，得到各民主党派和社会各界的热烈响应，揭开了中国共产党同各党派、各团体、各族各界人士协商建国的序幕，<mark style="background: #AB001;">奠定了中国共产党领导的多党合作和政治协商制度的基础</mark>。<br>![[Pasted image 20240529075047.png]]<br>1949年1月《对时局的意见》表明中国各民主党派和无党派人士<mark style="background: #ADCCFFA6;">公开自愿接受</mark>中国共产党的领导<br><strong>人民政协会议的召开</strong>，标志着中国共产党领导的多党合作和政协协商制度的<mark style="background: #ADCCFFA6;">确立</mark>。</p>
+<p>![[Pasted image 20240527140137.png]]<br>![[Pasted image 20240528110244.png]]<br>用粮食税制取代余粮收集制</p>
+
+<div class="markmap-container" style="height:300px">
+  <svg data="{&quot;t&quot;:&quot;root&quot;,&quot;d&quot;:0,&quot;v&quot;:&quot;&quot;,&quot;c&quot;:[{&quot;t&quot;:&quot;heading&quot;,&quot;d&quot;:1,&quot;p&quot;:{&quot;lines&quot;:[0,1]},&quot;v&quot;:&quot;中共三大&quot;,&quot;c&quot;:[{&quot;t&quot;:&quot;list_item&quot;,&quot;d&quot;:3,&quot;p&quot;:{&quot;lines&quot;:[1,2]},&quot;v&quot;:&quot;正确估计了&quot;,&quot;c&quot;:[{&quot;t&quot;:&quot;list_item&quot;,&quot;d&quot;:5,&quot;p&quot;:{&quot;lines&quot;:[2,3],&quot;f&quot;:true},&quot;v&quot;:&quot;孙中山的革命立场&quot;},{&quot;t&quot;:&quot;list_item&quot;,&quot;d&quot;:5,&quot;p&quot;:{&quot;lines&quot;:[3,4],&quot;f&quot;:true},&quot;v&quot;:&quot;国民党进行改革的可能性&quot;}]},{&quot;t&quot;:&quot;list_item&quot;,&quot;d&quot;:3,&quot;p&quot;:{&quot;lines&quot;:[4,5]},&quot;v&quot;:&quot;决定共产党员&quot;,&quot;c&quot;:[{&quot;t&quot;:&quot;list_item&quot;,&quot;d&quot;:5,&quot;p&quot;:{&quot;lines&quot;:[5,6],&quot;f&quot;:true},&quot;v&quot;:&quot;以个人身份加入国民党&quot;},{&quot;t&quot;:&quot;list_item&quot;,&quot;d&quot;:5,&quot;p&quot;:{&quot;lines&quot;:[6,7],&quot;f&quot;:true},&quot;v&quot;:&quot;实现国共合作&quot;}]},{&quot;t&quot;:&quot;list_item&quot;,&quot;d&quot;:3,&quot;p&quot;:{&quot;lines&quot;:[7,8]},&quot;v&quot;:&quot;保持自己的独立性&quot;,&quot;c&quot;:[{&quot;t&quot;:&quot;list_item&quot;,&quot;d&quot;:5,&quot;p&quot;:{&quot;lines&quot;:[8,9],&quot;f&quot;:true},&quot;v&quot;:&quot;在政治上&quot;},{&quot;t&quot;:&quot;list_item&quot;,&quot;d&quot;:5,&quot;p&quot;:{&quot;lines&quot;:[9,10],&quot;f&quot;:true},&quot;v&quot;:&quot;思想上&quot;},{&quot;t&quot;:&quot;list_item&quot;,&quot;d&quot;:5,&quot;p&quot;:{&quot;lines&quot;:[10,11],&quot;f&quot;:true},&quot;v&quot;:&quot;组织上&quot;}]}]},{&quot;t&quot;:&quot;heading&quot;,&quot;d&quot;:1,&quot;p&quot;:{&quot;lines&quot;:[11,12]},&quot;v&quot;:&quot;中共二大&quot;,&quot;c&quot;:[{&quot;t&quot;:&quot;list_item&quot;,&quot;d&quot;:3,&quot;p&quot;:{&quot;lines&quot;:[12,13]},&quot;v&quot;:&quot;制定民主革命纲领&quot;,&quot;c&quot;:[{&quot;t&quot;:&quot;list_item&quot;,&quot;d&quot;:5,&quot;p&quot;:{&quot;lines&quot;:[13,14],&quot;f&quot;:true},&quot;v&quot;:&quot;反帝反封建&quot;}]},{&quot;t&quot;:&quot;list_item&quot;,&quot;d&quot;:3,&quot;p&quot;:{&quot;lines&quot;:[14,15]},&quot;v&quot;:&quot;标志着党明确提出了统一战线政策&quot;,&quot;c&quot;:[{&quot;t&quot;:&quot;list_item&quot;,&quot;d&quot;:5,&quot;p&quot;:{&quot;lines&quot;:[15,16],&quot;f&quot;:true},&quot;v&quot;:&quot;必须联合全国一切革命党派&quot;},{&quot;t&quot;:&quot;list_item&quot;,&quot;d&quot;:5,&quot;p&quot;:{&quot;lines&quot;:[16,17],&quot;f&quot;:true},&quot;v&quot;:&quot;联合资产阶级民主派&quot;},{&quot;t&quot;:&quot;list_item&quot;,&quot;d&quot;:5,&quot;p&quot;:{&quot;lines&quot;:[17,18],&quot;f&quot;:true},&quot;v&quot;:&quot;组成”民主主义的联合战线“&quot;}]}]}],&quot;p&quot;:{}}"></svg>
+</div>
+
+<p>![[Pasted image 20240528141307.png]]<br>毛泽东1956年提出马克思主义基本原理与中国具体实际“<strong>第二次结合</strong>”的任务<br>中国共产党领导的革命统一战线包含两个联盟：第一个联盟主要是工农联盟和工人阶级和非劳动人民的联盟，主要是与民族资产阶级的联盟<br>在抗日民族统一战线中，中间势力主要是民族资产阶级、开明绅士和地方实力派，不存在谁代表谁的问题<br>新民主主义社会的五种经济成分中，处于十字路口的经济成分是<strong>个体经济</strong><br>“三三制”原则中的中间派的是<strong>开明绅士</strong><br>![[Pasted image 20240528110748.png]]</p>
+<h1 id="毛中特"><a href="#毛中特" class="headerlink" title="毛中特"></a>毛中特</h1></div><script src="https://jsd.onmicrosoft.cn/npm/hexo-theme-a4@latest/source/js/lightgallery.min.js"></script><script>if (typeof lightGallery !== 'undefined') {
+        var options = {
+            selector: '.gallery-item'
+        };
+        lightGallery(document.getElementsByClassName('.article-gallery')[0], options);
+        }</script>
+    </div>
+
+    <div class="post-meta">
+        <i>
+        
+            <span>2024-05-27</span>
+            
+                <span>该篇文章被 mengwei</span>
+            
+            
+                <span>打上标签:
+                    
+                    
+                        <a href='/tags/%E5%9F%BA%E7%A1%80/'>
+                            基础
+                        </a>
+                    
+                </span>
+             
+             
+        
+        </i>
+    </div>
+    <br>
+    
+    <!-- <div class="post-footer-pre-next">
+        <span>上一篇：<a href=""></a></span>
+        <span class="post-footer-pre-next-last-span-right">上一篇：<a href=""></a></span>
+    </div> -->
+
+    
+        
+    <div class="comments-container">
+    <div id="comment-anchor"></div>
+    <div class="comment-area-title">
+        以上 
+    </div>
+    
+        
+
+    
+    
+    
+    </div>
+
+
+     
+</div>
+
+
+
+                                      
+                    
+                    
+                    <div class="footer">
+    
+        <span> 
+             
+
+            
+                
+
+            
+        </span>
+    
+</div>
+<!--这是指一条线往下的内容-->
+<div class="footer-last">
+    
+            <span>人生如棋，落子不悔</span>
+            
+    
+    <span class="post-meta-divider">|</span>
+    <a target="_blank" rel="noopener" href="http://beian.miit.gov.cn">冀ICP备2024059005号</a>
+</div>
+
+
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+    <!--目录-->
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript" ></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" type="text/javascript" ></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tocify/1.9.0/javascripts/jquery.tocify.min.js" type="text/javascript" ></script>
+        
+<script src="/js/toc.js"></script>
+
+    
+
+    
+<script src="/js/randomHeaderContent.js"></script>
+
+    <!--回到顶部按钮-->
+    
+
+    
+
+
+
+
+
+<script src="/js/lightgallery.min.js"></script>
+
+
+
+                </div>
+            
+            
+            
+    <script src="/js/markmap.js"></script></body>
+
+
+</html>
